@@ -13,9 +13,11 @@
 .bg-container{
     background-color:#ffe6e6;
     background-size:cover;
-    height:100vh;
+    min-height:100vh;
+    min-width: 100%;
     display:flex;
     justify-content:center;
+    align-items: center;
    
 }
 
@@ -24,14 +26,16 @@
     height:140px;
 }
 .card-container{
-
+    display: flex;
+    flex-direction: column;
     background-color:#ffffff;
     border-bottom-left-radius:30px;
     border-bottom-right-radius:30px;
-    height:70vh;
+    height:100%;
     width:360px;
-
-
+}
+.card-container img{
+    margin-top: -15px;
 }
 .span-ele{
 
